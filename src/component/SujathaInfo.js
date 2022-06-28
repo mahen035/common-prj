@@ -2,16 +2,16 @@ import React from 'react';
 import Sujatha_indukuri from './Sujatha_indukuri.jpeg';
 function SujathaInfo(props) {
     return (
-        <div style={{backgroundColor:'blue', width:500 }}>
+        <div style={{backgroundColor:'pink', width:500,height:800 }}>
             <h1>SujathaIndukuri</h1>
-            <img src={Sujatha_indukuri} width={100} height={100} />
-            <h2>Technical Skills:</h2>
+            <img src={Sujatha_indukuri} width={300} height={300} align='center'/>
+            <h1>Technical Skills:</h1>
         
-              <h5>  Java</h5>
-                <h5>JavaScript</h5>
-                <h5>SQL,ORACLE</h5>
-                <h5>PeopleSoft</h5>
-                <h5>Selenium</h5>
+              <h2>  Java</h2>
+                <h2>JavaScript</h2>
+                <h2>SQL,ORACLE</h2>
+                <h2>PeopleSoft</h2>
+                <h2>Selenium</h2>
         
         </div>
     );

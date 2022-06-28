@@ -6,7 +6,7 @@ import {BrowserRouter,Link,Routes,Route} from 'react-router-dom';
 
 function TeamInfo(props) {
     return (
-        <div>
+        <div style={{backgroundColor:'pink'}}>
           
             <BrowserRouter>
             <nav className = 'NavBarItems' style={{backgroundColor:'black'}}>
