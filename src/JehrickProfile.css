@@ -1,0 +1,37 @@
+#ProfileContainer {
+  background-color: aqua;
+  display: grid;
+  grid-template-areas:  'ProfileHeader ProfileHeader'
+                        'ProfileDetails ProfileImage';
+  grid-gap: 1rem;
+  padding: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+}
+#ProfileHeader {
+  background-color:chartreuse;
+  grid-area: ProfileHeader;
+}
+#ProfileHeader>h1 {
+  font-variant: small-caps;
+}
+#ProfileHeader>h3 {
+  font-variant: small-caps;
+  font-weight:lighter;
+}
+#ProfileImageContainer {
+  background-color: blueviolet;
+  grid-area: ProfileImage;
+}
+#ProfileDetailsContainer {
+  background-color:gold;
+  grid-area: ProfileDetails;
+}
+#ProfileDetailsContainer>h2 {
+  background-color:gold;
+  grid-area: ProfileDetails;
+  font-variant: small-caps;
+}
+#ProfileImage {
+  aspect-ratio: 1 / 1;
+  width: 20rem;
+}
