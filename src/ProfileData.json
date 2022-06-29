@@ -6,38 +6,59 @@
     "school": "Milwaukee School of Engineering",
     "degree": "Bachelor of Science and Computer Engineering",
     "graduationYear": 2014,
-    "Image": "",
+    "Image": "./images/jehrick/pic-cropped-small.png",
     "skills": [
         {
             "skill": "C",
             "type": "College",
-            "years": 5
+            "months": 96
         },
         {
             "skill": "C++",
             "type": "Professional",
-            "years": 3
+            "months": 36
         },
         {
             "skill": "C#",
             "type": "Professional",
-            "years": 2
+            "months": 24
         },
         {
             "skill": "JavaScript",
             "type": "Professional",
-            "years": 2
+            "months": 36
         },
         {
-            "skill": "C",
+            "skill": "Jira",
             "type": "Professional",
-            "years": 2
+            "months": 24
+        },
+        {
+            "skill": "Git",
+            "type": "Professional",
+            "months": 24
+        },
+        {
+            "skill": "SQL Server",
+            "type": "Self-Study",
+            "months": 12
+        },
+        {
+            "skill": "React",
+            "type": "Self-Study",
+            "months": 3
+        },
+        {
+            "skill": "Amazon Web Services",
+            "type": "Self-Study",
+            "months": 1
         }
     ],
     "interests": [
         "Cooking",
         "Drawing",
         "Music",
-        "Engineering"
+        "Engineering",
+        "Breadmaking"
     ]
 }

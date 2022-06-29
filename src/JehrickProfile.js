@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './JehrickProfile.css';
 import jehrickData from './ProfileData.json';
+import profileImage from './images/jehrick/pic-cropped-small.png';
 
 function JehrickProfile(props) {
+    const state = useState(jehrickData)
     return (
         <div id="ProfileContainer">
-            <header>
+            <header id="ProfileHeader">
                 <h1>
                     {jehrickData.firstName} {jehrickData.lastName}
                 </h1>
@@ -19,12 +21,32 @@ function JehrickProfile(props) {
                     {jehrickData.degree}, class of {jehrickData.graduationYear}
                 </h4>
             </header>
+            <div id="ProfileImageContainer">
+                <img id="ProfileImage" src={profileImage}/>
+            </div>
+            <div id="ProfileDetailsContainer">
             <h2>Skills</h2>
             <ul>
                 {jehrickData.skills.map((index,key) => {
                     return (
                         <li key={key}>
-                            {index.skill}, {index.type}, {index.years} years
+                            {index.skill}, {index.type}, {(() => {
+                                let [months, years] = [index.months, Math.floor(index.months / 12)];
+                                if (months < 12) {
+                                    if (months === 1) {
+                                        return `${months} month`
+                                    } else {
+                                        return `${months} months`
+                                    }
+                                }
+                                else {
+                                    if (years === 1) {
+                                        return `${years} year`
+                                    } else {
+                                        return `${years} years`
+                                    }
+                                }
+                            })()}
                         </li>
                     )
                 })}
@@ -39,6 +61,7 @@ function JehrickProfile(props) {
                     )
                 })}
             </ul>
+            </div>
         </div>
     );
 }
