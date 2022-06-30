@@ -1,37 +1,55 @@
 #ProfileContainer {
-  background-color: aqua;
+  background-color: #add1d5;
   display: grid;
-  grid-template-areas:  'ProfileHeader ProfileHeader'
-                        'ProfileDetails ProfileImage';
+  grid-template-areas:  'ProfileHeader ProfileImage'
+                        'ProfileDetails ProfileImage'
+                        'ProfileAboutMe ProfileAboutMe';
   grid-gap: 1rem;
   padding: 1rem;
   font-family: 'Didact Gothic', sans-serif;
+  width: 60rem;
+  margin: auto;
 }
 #ProfileHeader {
-  background-color:chartreuse;
   grid-area: ProfileHeader;
 }
 #ProfileHeader>h1 {
   font-variant: small-caps;
+  font-weight: 900;
 }
 #ProfileHeader>h3 {
   font-variant: small-caps;
+  margin: 0;
+}
+#ProfileHeader>h4 {
+  font-variant: small-caps;
   font-weight:lighter;
+  margin: 0;
 }
 #ProfileImageContainer {
-  background-color: blueviolet;
   grid-area: ProfileImage;
+  margin: auto;
 }
 #ProfileDetailsContainer {
-  background-color:gold;
   grid-area: ProfileDetails;
 }
 #ProfileDetailsContainer>h2 {
-  background-color:gold;
   grid-area: ProfileDetails;
   font-variant: small-caps;
 }
+#ProfileAboutMeContainer {
+  grid-area: ProfileAboutMe;
+}
+#ProfileAboutMeContainer>h2 {
+  grid-area: ProfileAboutMe;
+  font-variant: small-caps;
+}
+#ProfileAboutMeContainer>p {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 #ProfileImage {
   aspect-ratio: 1 / 1;
-  width: 20rem;
+  width: 30rem;
+  border-radius: 25%
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './JehrickProfile.css';
-import jehrickData from './ProfileData.json';
+import jehrickData from './JehrickProfileData.json';
 import profileImage from './images/jehrick/pic-cropped-small.png';
 
 function JehrickProfile(props) {
@@ -30,7 +30,7 @@ function JehrickProfile(props) {
                 {jehrickData.skills.map((index,key) => {
                     return (
                         <li key={key}>
-                            {index.skill}, {index.type}, {(() => {
+                            <b>{index.skill}</b>, {index.type}, {(() => {
                                 let [months, years] = [index.months, Math.floor(index.months / 12)];
                                 if (months < 12) {
                                     if (months === 1) {
@@ -61,6 +61,12 @@ function JehrickProfile(props) {
                     )
                 })}
             </ul>
+            </div>
+            <div id="ProfileAboutMeContainer">
+                <h2>About Me</h2>
+                <p>
+                    {jehrickData.about_me}
+                </p>
             </div>
         </div>
     );
