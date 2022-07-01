@@ -1,8 +1,9 @@
 import React from 'react';
-import Sujatha_indukuri from './Sujatha_indukuri.jpeg';
+import './SujathaInfo.css';
+import Sujatha_indukuri from '../images/Sujatha_Indukuri.jpeg';
 function SujathaInfo(props) {
     return (
-        <div style={{backgroundColor:'pink', width:500,height:800 }}>
+        <div id="SujathaProfileContainer">
             <h1>SujathaIndukuri</h1>
             <img src={Sujatha_indukuri} width={300} height={300} align='center'/>
             <h1>Technical Skills:</h1>
