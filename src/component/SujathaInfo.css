@@ -1,0 +1,12 @@
+#SujathaProfileContainer {
+  background-color:'pink'; 
+  width:500;
+  height:800; 
+}
+#SujathaProfileContainer>li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  padding: 100px;
+  line-height: 80px;
+}

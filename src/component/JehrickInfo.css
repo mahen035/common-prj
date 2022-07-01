@@ -1,0 +1,55 @@
+#JehrickProfileContainer {
+  background-color: #add1d5;
+  display: grid;
+  grid-template-areas:  'JehrickProfileHeader JehrickProfileImage'
+                        'JehrickProfileDetails JehrickProfileImage'
+                        'JehrickProfileAboutMe JehrickProfileAboutMe';
+  grid-gap: 1rem;
+  padding: 1rem;
+  font-family: 'Didact Gothic', sans-serif;
+  width: 60rem;
+  margin: auto;
+}
+#JehrickProfileHeader {
+  grid-area: JehrickProfileHeader;
+}
+#JehrickProfileHeader>h1 {
+  font-variant: small-caps;
+  font-weight: 900;
+}
+#JehrickProfileHeader>h3 {
+  font-variant: small-caps;
+  margin: 0;
+}
+#JehrickProfileHeader>h4 {
+  font-variant: small-caps;
+  font-weight:lighter;
+  margin: 0;
+}
+#JehrickProfileImageContainer {
+  grid-area: JehrickProfileImage;
+  margin: auto;
+}
+#JehrickProfileDetailsContainer {
+  grid-area: JehrickProfileDetails;
+}
+#JehrickProfileDetailsContainer>h2 {
+  grid-area: JehrickProfileDetails;
+  font-variant: small-caps;
+}
+#JehrickProfileAboutMeContainer {
+  grid-area: JehrickProfileAboutMe;
+}
+#JehrickProfileAboutMeContainer>h2 {
+  grid-area: JehrickProfileAboutMe;
+  font-variant: small-caps;
+}
+#JehrickProfileAboutMeContainer>p {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+#JehrickProfileImage {
+  aspect-ratio: 1 / 1;
+  width: 30rem;
+  border-radius: 25%
+}

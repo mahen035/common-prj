@@ -1,0 +1,66 @@
+{
+    "firstName": "Jehrick",
+    "lastName": "Robertson",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "school": "Milwaukee School of Engineering",
+    "degree": "Bachelor of Science and Computer Engineering",
+    "graduationYear": 2014,
+    "Image": "./images/jehrick/pic-cropped-small.png",
+    "skills": [
+        {
+            "skill": "C",
+            "type": "College",
+            "months": 96
+        },
+        {
+            "skill": "C++",
+            "type": "Professional",
+            "months": 36
+        },
+        {
+            "skill": "C#",
+            "type": "Professional",
+            "months": 24
+        },
+        {
+            "skill": "JavaScript",
+            "type": "Professional",
+            "months": 36
+        },
+        {
+            "skill": "Jira",
+            "type": "Professional",
+            "months": 24
+        },
+        {
+            "skill": "Git",
+            "type": "Professional",
+            "months": 24
+        },
+        {
+            "skill": "SQL Server",
+            "type": "Self-Study",
+            "months": 12
+        },
+        {
+            "skill": "React",
+            "type": "Self-Study",
+            "months": 3
+        },
+        {
+            "skill": "Amazon Web Services",
+            "type": "Self-Study",
+            "months": 1
+        }
+    ],
+    "interests": [
+        "Cooking",
+        "Drawing",
+        "Music",
+        "Engineering",
+        "Breadmaking"
+    ],
+    "about_me":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}
