@@ -1,6 +1,7 @@
 import React from 'react';
 import SujathaInfo from './SujathaInfo';
 import MarsInfo from './MarsInfo';
+import EricInfo from './EricInfo';
 
 import {BrowserRouter,Link,Routes,Route} from 'react-router-dom';
 
@@ -39,6 +40,7 @@ function TeamInfo(props) {
             <Routes>
                 <Route path='/MarsInfo' element={<MarsInfo/>}/>
                 <Route path='/SujathaInfo' element={<SujathaInfo/>}/>
+                <Route path='/EricInfo' element={<EricInfo/>}/>
                 
             </Routes>
             </BrowserRouter>
