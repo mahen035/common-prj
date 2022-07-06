@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import TeamInfo from './component/TeamInfo';
 
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,8 @@ function App() {
     <h1>Hello from react</h1>
     <h2>Test Header</h2>
     <h3>Smaller Test Header</h3>
-     <TeamInfo />   
+     <TeamInfo />  
+     
     </div>
   );
 }
